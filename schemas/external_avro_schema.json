@@ -1,0 +1,22 @@
+{
+  "$id": "http://json-schema.org/draft-04/schema#",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "payloadExample": {
+    "type": "record",
+    "doc": "User information",
+    "fields": [
+      {
+        "name": "displayName",
+        "type": "string"
+      },
+      {
+        "name": "email",
+        "type": "string"
+      },
+      {
+        "name": "age",
+        "type": "int"
+      }
+    ]
+  }
+}
