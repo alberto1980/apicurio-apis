@@ -1,18 +1,22 @@
 {
   "$id": "http://json-schema.org/draft-04/schema#",
   "$schema": "http://json-schema.org/draft-04/schema#",
-  
-   "lightMeasuredPayload":{
-		"type": "record",
-		"fields" : [
-		  {
-            "name": "streetAddress",
-            "type": "string"
-          },
-          {
-            "name": "city",
-            "type": "string"
-          }
-		]
-	}
+  "payloadExample": {
+    "type": "record",
+    "doc": "User information",
+    "fields": [
+      {
+        "name": "displayName",
+        "type": "string"
+      },
+      {
+        "name": "email",
+        "type": "string"
+      },
+      {
+        "name": "age",
+        "type": "int"
+      }
+    ]
+  }
 }
