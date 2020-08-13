@@ -2,20 +2,16 @@
   "$id": "http://json-schema.org/draft-04/schema#",
   "$schema": "http://json-schema.org/draft-04/schema#",
   
-   "lightMeasured":{
-	   "type": "record",
-	   "fields": [
+   "lightMeasuredPayload":{
+		"type": "record",
+		"fields" : [
 		  {
-			"name": "payload",
-			"type": {
-				"name": "lightMeasuredPayload",
-				"type": "record",
-				"fields" : [
-				  "name" : "string",
-				  "type" : "string"
-				]
-			}
-		  }
-		]
-	}
+            "name": "streetAddress",
+            "type": "string"
+          },
+          {
+            "name": "city",
+            "type": "string"
+          }
+		]	
 }
