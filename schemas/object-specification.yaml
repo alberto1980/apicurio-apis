@@ -1,0 +1,7 @@
+components:
+  schemas:
+    legacy:
+      type: object
+      properties:
+        legacy-id:
+          type: string
