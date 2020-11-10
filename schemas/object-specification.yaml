@@ -1,6 +1,6 @@
 components:
   schemas:
-    legacy:
+    LegacyId:
       type: object
       properties:
         legacy-id:
