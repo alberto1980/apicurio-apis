@@ -3,6 +3,11 @@ components:
   schemas:
     Exception:
       type: object
+      description: General Exception
+      properties:
+        message:
+          type: string
+          description: Message Exception.
     Rfc7807Exception:
       description: The Rfc7807 specification for exceptions.
       allOf:
