@@ -1,7 +1,7 @@
 {
   "fields": [
     {
-      "doc": "The int type is a 32-bit signed integer.",
+      "doc": "The int type is a 32-bit signed integer",
       "name": "my_field1",
       "type": "int"
     }
