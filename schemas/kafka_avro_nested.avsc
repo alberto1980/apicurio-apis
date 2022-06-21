@@ -10,7 +10,7 @@
       "doc": "The double type is a double precision (64-bit) IEEE 754 floating-point number.",
       "name": "my_field2",
       "type": "record",
-	    "namespace": "com.mycorp.mynamespace2",
+      "namespace": "com.mycorp.mynamespace2",
 	    "fields": [
 		    {
 		     "doc": "The int type is a 32-bit signed integer.",
