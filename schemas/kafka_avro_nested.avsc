@@ -5,29 +5,6 @@
       "doc": "The int type is a 32-bit signed integer",
       "name": "my_field1",
       "type": "int"
-    },
-    {
-      "doc": "The double type is a double precision (64-bit) IEEE 754 floating-point number",
-      "name": "my_field2",
-      "type": "record"
-	    "namespace": "com.mycorp.mynamespace2",
-	    "fields": [
-        {
-          "doc": "The int type is a 32-bit signed integer.",
-          "name": "my_field1",
-          "type": "int"
-        },
-        {
-          "doc": "The double type is a double precision (64-bit) IEEE 754 floating-point number.",
-          "name": "my_field2",
-          "type": "double"
-        },
-        {
-          "doc": "The string is a unicode character sequence.",
-          "name": "my_field3",
-          "type": "string"
-        }
-      ]
     }
   ],
   "name": "RecordTopic1",
