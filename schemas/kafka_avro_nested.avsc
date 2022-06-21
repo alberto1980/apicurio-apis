@@ -1,5 +1,5 @@
 {
-  "doc": "Sample schema to help you get started.",
+  "doc": "Sample schema to help you get started",
   "fields": [
     {
       "doc": "The int type is a 32-bit signed integer.",
